@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "ts-node src/chat.ts",
-    "dev": "ts-node-dev --respawn src/chat.ts",
+    "dev": "node --watch --require ts-node/register src/chat.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
